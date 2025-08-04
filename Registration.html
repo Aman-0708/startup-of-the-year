@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER</title>
+    <body>
+    <strong> KINDLY INPUT YOUR DETAILS </strong> 
+     <form method="GET">
+      First Name:<input type="text" name="firstname"><br>
+      Last Name:<input type="text" name="lastname"><br>
+      Phone Number:<input type="number" name="phonenubmer" required><br>
+      Password:<input type="password" name=" password" minlength="8"><br>
+      Email:<input type="email" name="email" required><br>
+      Birthday:<input type="date" name="birthday"><br> 
+      Gender:<br>
+      <input type="radio" name="gender" value="Male"> Male<br>
+      <input type="radio" name="gender" value="Female"> Female<br>
+      <input type="radio" name="gender" value="Other"> Other<br>
+      Pets:<br>
+      <input type="checkbox" name="pets" value="=Dog">Dog<br>
+      <input type="checkbox" name="pets" value="Cat">Cat<br>
+      Cars:<br>
+      <select name="cars"> 
+        <option value="Toyota">Toyota</option>
+        <option value="Porsche">Porsche</option>
+      </select><br>
+      <input type="submit" value="REGISTER!">
+      <input type="reset">
+    </form>
+    </body>
+    </head>
+</html>
+
+?firstname=brad
+&lastname=john
+&phonenubmer=1234
+&+password=12345678
+&email=
+&birthday=2025-06-04
+&gender=on
+&pets=on
+&cars=on
